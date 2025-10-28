@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Name>Duplicate Name</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+  <Hotel NearestAirport="JFK">
+    <Name>The Plaza</Name>
+    <Address>
+      <Number>768 5th Ave</Number>
+      <Street>5th Ave</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>10019</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.5" NearestAirport="LAX">
+    <Name>The Beverly Hills Hotel</Name>
+    <Phone>310-276-2251</Phone>
+    <Address>
+      <Number>9641</Number>
+      <Street>Sunset Blvd</Street>
+      <City>Beverly Hills</City>
+      <State>CA</State>
+      <Zip>90210</Zip>
+    </Address>
+  </Hotel>
+  <Hotel NearestAirport="ORD">
+    <Name>The Langham, Chicago</Name>
+    <Phone>312-923-9988</Phone>
+    <Address>
+      <Number>330</Number>
+      <Street>N Wabash Ave</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <Zip>60611</Zip>
+    </Hotel>
+  <Hotel Rating="4.8" NearestAirport="MIA">
+    <Name>Fontainebleau Miami Beach</Name>
+    <Phone>305-538-2000</Phone>
+    <Address>
+      <Number>4441</Number>
+      <Street>Collins Ave</Street>
+      <City>Miami Beach</City>
+      <State>FL</State>
+      <Zip>33140</Zip>
+    </Address>
+  </Hotel>
+  <Hotel NearestAirport="LAS">
+    <Name>Bellagio Hotel &amp; Casino</Name>
+    <Phone>888-987-6667</Phone>
+    <Address>
+      <Number>3600</Number>
+      <Street>S Las Vegas Blvd</Street>
+      <City>Las Vegas</City>
+      <State>NV</State>
+      <Zip>89109</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.6" NearestAirport="HNL">
+    <Name>Halekulani</Name>
+    <Phone>808-923-2311</Phone>
+    <Address>
+      <Number>2199</Number>
+      <Street>Kalia Rd</Street>
+      <City>Honolulu</City>
+      <State>HI</State>
+      <Zip>96815</Zip>
+    </Address>
+  </Hotel>
+  <Hotel NearestAirport="DEN">
+    <Name>The Brown Palace Hotel and Spa</Name>
+    <Phone>303-297-3111</Phone>
+    <Address>
+      <Number>321</Number>
+      <Street>17th St</Street>
+      <City>Denver</City>
+      <State>CO</State>
+      <Zip>80202</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.7" NearestAirport="SEA">
+    <Name>Four Seasons Hotel Seattle</Name>
+    <Phone>206-749-7000</Phone>
+    <Address>
+      <Number>99</Number>
+      <Street>Union St</Street>
+      <City>Seattle</City>
+      <State>WA</State>
+      <Zip>98101</Zip>
+    </Address>
+  </Hotel>
+  <Hotel NearestAirport="BOS">
+    <Name>The Liberty, a Luxury Collection Hotel, Boston</Name>
+    <Phone>617-224-4000</Phone>
+    <Address>
+      <Number>215</Number>
+      <Street>Charles St</Street>
+      <City>Boston</City>
+      <State>MA</State>
+      <Zip>02114</Zip>
+    </Address>
+  </Hotel>
+</Hotel>

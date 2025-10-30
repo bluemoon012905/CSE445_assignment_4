@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
-  <Hotel Rating="4.2" NearestAirport="PHX">
+<!-- Error 1: Root element changed to "Hotel" -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  
+  <!-- Error 2: Missing required NearestAirport attribute -->
+  <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
@@ -12,9 +15,10 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  <Hotel NearestAirport="JFK">
+
+  <!-- Error 3: Missing Phone element -->
+  <Hotel Rating="4.0" NearestAirport="JFK">
     <Name>The Plaza</Name>
-    <Phone>212-555-1234</Phone>
     <Address>
       <Number>768 5th Ave</Number>
       <Street>5th Ave</Street>
@@ -23,6 +27,8 @@
       <Zip>10019</Zip>
     </Address>
   </Hotel>
+
+  <!-- Error 4: Address element has no closing tag -->
   <Hotel Rating="4.5" NearestAirport="LAX">
     <Name>The Beverly Hills Hotel</Name>
     <Phone>310-276-2251</Phone>
@@ -32,10 +38,12 @@
       <City>Beverly Hills</City>
       <State>CA</State>
       <Zip>90210</Zip>
-    </Address>
   </Hotel>
-  <Hotel NearestAirport="ORD">
+
+  <!-- Error 5: Two Name elements -->
+  <Hotel Rating="4.1" NearestAirport="ORD">
     <Name>The Langham, Chicago</Name>
+    <Name>Duplicate Name</Name>
     <Phone>312-923-9988</Phone>
     <Address>
       <Number>330</Number>
@@ -45,6 +53,7 @@
       <Zip>60611</Zip>
     </Address>
   </Hotel>
+
   <Hotel Rating="4.8" NearestAirport="MIA">
     <Name>Fontainebleau Miami Beach</Name>
     <Phone>305-538-2000</Phone>
@@ -111,4 +120,4 @@
       <Zip>02114</Zip>
     </Address>
   </Hotel>
-</Hotels>
+</Hotel>

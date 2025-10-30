@@ -19,24 +19,23 @@ namespace ConsoleApp1
 
     public class Program
     {
-                public static void Main(string[] args)
-                {
-                    string xmlURL = args[0];
-                    string xsdURL = args[1];
-                    string xmlErrorURL = args[2];
-        
-                    string result = Verification(xmlURL, xsdURL);
-                    Console.WriteLine(result);
-        
-        
-                    result = Verification(xmlErrorURL, xsdURL);
-                    Console.WriteLine(result);
-        
-        
-                    result = Xml2Json(xmlURL);
-                    Console.WriteLine(result);
-                }        
-                // Q2.1
+                                public static string xmlURL = "https://bluemoon012905.github.io/CSE445_assignment_4/Hotels.xml";
+                                public static string xmlErrorURL = "https://bluemoon012905.github.io/CSE445_assignment_4/HotelsErrors.xml";
+                                public static string xsdURL = "https://bluemoon012905.github.io/CSE445_assignment_4/Hotels.xsd";
+                        
+                                public static void Main(string[] args)
+                                {
+                                    string result = Verification(xmlURL, xsdURL);
+                                    Console.WriteLine(result);
+                        
+                        
+                                    result = Verification(xmlErrorURL, xsdURL);
+                                    Console.WriteLine(result);
+                        
+                        
+                                    result = Xml2Json(xmlURL);
+                                    Console.WriteLine(result);
+                                }                // Q2.1
                 /// <summary>
                 /// Verifies an XML file against an XSD schema.
                 /// </summary>

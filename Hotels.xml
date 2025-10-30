@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://bluemoon012905.github.io/CSE445_assignment_4/Hotels.xsd">
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -13,113 +13,113 @@
     </Address>
   </Hotel>
   <Hotel>
-    <Name>The Plaza</Name>
-    <Phone>212-759-3000</Phone>
-    <Address NearestAirport="JFK">
-      <Number>768 5th Ave</Number>
-      <Street>5th Ave</Street>
-      <City>New York</City>
-      <State>NY</State>
-      <Zip>10019</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="4.5">
-    <Name>The Beverly Hills Hotel</Name>
-    <Phone>310-276-2251</Phone>
-    <Address NearestAirport="LAX">
-      <Number>9641</Number>
-      <Street>Sunset Blvd</Street>
-      <City>Beverly Hills</City>
-      <State>CA</State>
-      <Zip>90210</Zip>
-    </Address>
-  </Hotel>
-  <Hotel>
-    <Name>The Langham, Chicago</Name>
-    <Phone>312-923-9988</Phone>
-    <Address NearestAirport="ORD">
-      <Number>330</Number>
-      <Street>N Wabash Ave</Street>
-      <City>Chicago</City>
-      <State>IL</State>
-      <Zip>60611</Zip>
-    </Address>
-  </Hotel>
-  <Hotel Rating="4.8">
-    <Name>Fontainebleau Miami Beach</Name>
-    <Phone>305-538-2000</Phone>
-    <Address NearestAirport="MIA">
-      <Number>4441</Number>
-      <Street>Collins Ave</Street>
-      <City>Miami Beach</City>
-      <State>FL</State>
-      <Zip>33140</Zip>
-    </Address>
-  </Hotel>
-  <Hotel>
-    <Name>Bellagio Hotel &amp; Casino</Name>
-    <Phone>888-987-6667</Phone>
+    <Name>The Venetian Resort</Name>
+    <Phone>702-414-1000</Phone>
     <Address NearestAirport="LAS">
-      <Number>3600</Number>
+      <Number>3355</Number>
       <Street>S Las Vegas Blvd</Street>
       <City>Las Vegas</City>
       <State>NV</State>
       <Zip>89109</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.6">
-    <Name>Halekulani</Name>
-    <Phone>808-923-2311</Phone>
-    <Address NearestAirport="HNL">
-      <Number>2199</Number>
-      <Street>Kalia Rd</Street>
-      <City>Honolulu</City>
+  <Hotel Rating="4.8">
+    <Name>The Ritz-Carlton</Name>
+    <Phone>212-308-9100</Phone>
+    <Address NearestAirport="JFK">
+      <Number>50</Number>
+      <Street>Central Park S</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>10019</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.9">
+    <Name>Four Seasons Resort Maui at Wailea</Name>
+    <Phone>808-874-8000</Phone>
+    <Address NearestAirport="OGG">
+      <Number>3900</Number>
+      <Street>Wailea Alanui Dr</Street>
+      <City>Wailea</City>
       <State>HI</State>
-      <Zip>96815</Zip>
+      <Zip>96753</Zip>
     </Address>
   </Hotel>
   <Hotel>
-    <Name>The Brown Palace Hotel and Spa</Name>
-    <Phone>303-297-3111</Phone>
-    <Address NearestAirport="DEN">
-      <Number>321</Number>
-      <Street>17th St</Street>
-      <City>Denver</City>
+    <Name>The Broadmoor</Name>
+    <Phone>719-634-7711</Phone>
+    <Address NearestAirport="COS">
+      <Number>1</Number>
+      <Street>Lake Ave</Street>
+      <City>Colorado Springs</City>
       <State>CO</State>
-      <Zip>80202</Zip>
+      <Zip>80906</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.8">
+    <Name>The Peninsula Chicago</Name>
+    <Phone>312-337-2888</Phone>
+    <Address NearestAirport="ORD">
+      <Number>108</Number>
+      <Street>E Superior St</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <Zip>60611</Zip>
+    </Address>
+  </Hotel>
+  <Hotel>
+    <Name>Grand Hyatt Nashville</Name>
+    <Phone>615-622-1234</Phone>
+    <Address NearestAirport="BNA">
+      <Number>1000</Number>
+      <Street>Broadway</Street>
+      <City>Nashville</City>
+      <State>TN</State>
+      <Zip>37203</Zip>
     </Address>
   </Hotel>
   <Hotel Rating="4.7">
-    <Name>Four Seasons Hotel Seattle</Name>
-    <Phone>206-749-7000</Phone>
-    <Address NearestAirport="SEA">
-      <Number>99</Number>
-      <Street>Union St</Street>
-      <City>Seattle</City>
-      <State>WA</State>
-      <Zip>98101</Zip>
+    <Name>The Breakers</Name>
+    <Phone>561-655-6611</Phone>
+    <Address NearestAirport="PBI">
+      <Number>1</Number>
+      <Street>S County Rd</Street>
+      <City>Palm Beach</City>
+      <State>FL</State>
+      <Zip>33480</Zip>
+    </Address>
+  </Hotel>
+  <Hotel Rating="4.9">
+    <Name>Amangiri</Name>
+    <Phone>435-675-3999</Phone>
+    <Address NearestAirport="PGA">
+      <Number>1</Number>
+      <Street>Kayenta Rd</Street>
+      <City>Canyon Point</City>
+      <State>UT</State>
+      <Zip>84741</Zip>
     </Address>
   </Hotel>
   <Hotel>
-    <Name>The Liberty, a Luxury Collection Hotel, Boston</Name>
-    <Phone>617-224-4000</Phone>
-    <Address NearestAirport="BOS">
-      <Number>215</Number>
-      <Street>Charles St</Street>
-      <City>Boston</City>
-      <State>MA</State>
-      <Zip>02114</Zip>
+    <Name>The Inn at Little Washington</Name>
+    <Phone>540-675-3800</Phone>
+    <Address NearestAirport="IAD">
+      <Number>309</Number>
+      <Street>Middle St</Street>
+      <City>Washington</City>
+      <State>VA</State>
+      <Zip>22747</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.6">
-      <Name>Fairmont Scottsdale Princess</Name>
-      <Phone>480-585-4848</Phone>
-      <Address NearestAirport="PHX">
-        <Number>7575</Number>
-        <Street>E Princess Dr</Street>
-        <City>Scottsdale</City>
-        <State>AZ</State>
-        <Zip>85255</Zip>
+  <Hotel Rating="4.7">
+      <Name>Waldorf Astoria Beverly Hills</Name>
+      <Phone>310-860-6666</Phone>
+      <Address NearestAirport="LAX">
+        <Number>9850</Number>
+        <Street>Wilshire Blvd</Street>
+        <City>Beverly Hills</City>
+        <State>CA</State>
+        <Zip>90210</Zip>
       </Address>
   </Hotel>
 </Hotels>

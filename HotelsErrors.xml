@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
-  <Hotel Rating="4.2">
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  <Hotel Rating="4.2" NearestAirport="PHX">
     <Name>Westin</Name>
-    <Name>Duplicate Name</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
     <Address>
@@ -15,6 +14,7 @@
   </Hotel>
   <Hotel NearestAirport="JFK">
     <Name>The Plaza</Name>
+    <Phone>212-555-1234</Phone>
     <Address>
       <Number>768 5th Ave</Number>
       <Street>5th Ave</Street>
@@ -43,7 +43,8 @@
       <City>Chicago</City>
       <State>IL</State>
       <Zip>60611</Zip>
-    </Hotel>
+    </Address>
+  </Hotel>
   <Hotel Rating="4.8" NearestAirport="MIA">
     <Name>Fontainebleau Miami Beach</Name>
     <Phone>305-538-2000</Phone>
@@ -110,4 +111,4 @@
       <Zip>02114</Zip>
     </Address>
   </Hotel>
-</Hotel>
+</Hotels>

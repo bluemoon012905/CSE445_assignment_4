@@ -111,4 +111,15 @@
       <Zip>02114</Zip>
     </Address>
   </Hotel>
+  <Hotel Rating="4.6" NearestAirport="PHX">
+      <Name>Fairmont Scottsdale Princess</Name>
+      <Phone>480-585-4848</Phone>
+      <Address>
+        <Number>7575</Number>
+        <Street>E Princess Dr</Street>
+        <City>Scottsdale</City>
+        <State>AZ</State>
+        <Zip>85255</Zip>
+      </Address>
+  </Hotel>
 </Hotels>

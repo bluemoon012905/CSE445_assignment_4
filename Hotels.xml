@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
-  <Hotel Rating="4.2" NearestAirport="Sky Harbor">
+  <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address>
+    <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E 7th St</Street>
       <City>Tempe</City>
@@ -12,10 +12,10 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-  <Hotel NearestAirport="JFK">
+  <Hotel>
     <Name>The Plaza</Name>
     <Phone>212-759-3000</Phone>
-    <Address>
+    <Address NearestAirport="JFK">
       <Number>768 5th Ave</Number>
       <Street>5th Ave</Street>
       <City>New York</City>
@@ -23,10 +23,10 @@
       <Zip>10019</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.5" NearestAirport="LAX">
+  <Hotel Rating="4.5">
     <Name>The Beverly Hills Hotel</Name>
     <Phone>310-276-2251</Phone>
-    <Address>
+    <Address NearestAirport="LAX">
       <Number>9641</Number>
       <Street>Sunset Blvd</Street>
       <City>Beverly Hills</City>
@@ -34,10 +34,10 @@
       <Zip>90210</Zip>
     </Address>
   </Hotel>
-  <Hotel NearestAirport="ORD">
+  <Hotel>
     <Name>The Langham, Chicago</Name>
     <Phone>312-923-9988</Phone>
-    <Address>
+    <Address NearestAirport="ORD">
       <Number>330</Number>
       <Street>N Wabash Ave</Street>
       <City>Chicago</City>
@@ -45,10 +45,10 @@
       <Zip>60611</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.8" NearestAirport="MIA">
+  <Hotel Rating="4.8">
     <Name>Fontainebleau Miami Beach</Name>
     <Phone>305-538-2000</Phone>
-    <Address>
+    <Address NearestAirport="MIA">
       <Number>4441</Number>
       <Street>Collins Ave</Street>
       <City>Miami Beach</City>
@@ -56,10 +56,10 @@
       <Zip>33140</Zip>
     </Address>
   </Hotel>
-  <Hotel NearestAirport="LAS">
+  <Hotel>
     <Name>Bellagio Hotel &amp; Casino</Name>
     <Phone>888-987-6667</Phone>
-    <Address>
+    <Address NearestAirport="LAS">
       <Number>3600</Number>
       <Street>S Las Vegas Blvd</Street>
       <City>Las Vegas</City>
@@ -67,10 +67,10 @@
       <Zip>89109</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.6" NearestAirport="HNL">
+  <Hotel Rating="4.6">
     <Name>Halekulani</Name>
     <Phone>808-923-2311</Phone>
-    <Address>
+    <Address NearestAirport="HNL">
       <Number>2199</Number>
       <Street>Kalia Rd</Street>
       <City>Honolulu</City>
@@ -78,10 +78,10 @@
       <Zip>96815</Zip>
     </Address>
   </Hotel>
-  <Hotel NearestAirport="DEN">
+  <Hotel>
     <Name>The Brown Palace Hotel and Spa</Name>
     <Phone>303-297-3111</Phone>
-    <Address>
+    <Address NearestAirport="DEN">
       <Number>321</Number>
       <Street>17th St</Street>
       <City>Denver</City>
@@ -89,10 +89,10 @@
       <Zip>80202</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.7" NearestAirport="SEA">
+  <Hotel Rating="4.7">
     <Name>Four Seasons Hotel Seattle</Name>
     <Phone>206-749-7000</Phone>
-    <Address>
+    <Address NearestAirport="SEA">
       <Number>99</Number>
       <Street>Union St</Street>
       <City>Seattle</City>
@@ -100,10 +100,10 @@
       <Zip>98101</Zip>
     </Address>
   </Hotel>
-  <Hotel NearestAirport="BOS">
+  <Hotel>
     <Name>The Liberty, a Luxury Collection Hotel, Boston</Name>
     <Phone>617-224-4000</Phone>
-    <Address>
+    <Address NearestAirport="BOS">
       <Number>215</Number>
       <Street>Charles St</Street>
       <City>Boston</City>
@@ -111,10 +111,10 @@
       <Zip>02114</Zip>
     </Address>
   </Hotel>
-  <Hotel Rating="4.6" NearestAirport="PHX">
+  <Hotel Rating="4.6">
       <Name>Fairmont Scottsdale Princess</Name>
       <Phone>480-585-4848</Phone>
-      <Address>
+      <Address NearestAirport="PHX">
         <Number>7575</Number>
         <Street>E Princess Dr</Street>
         <City>Scottsdale</City>

@@ -9,6 +9,7 @@
       <xs:element name="State" type="xs:string" />
       <xs:element name="Zip" type="xs:string" />
     </xs:sequence>
+    <xs:attribute name="NearestAirport" type="xs:string" use="required" />
   </xs:complexType>
 
   <xs:complexType name="HotelType">
@@ -18,7 +19,6 @@
       <xs:element name="Address" type="AddressType" />
     </xs:sequence>
     <xs:attribute name="Rating" type="xs:decimal" use="optional" />
-    <xs:attribute name="NearestAirport" type="xs:string" use="required" />
   </xs:complexType>
 
   <xs:element name="Hotels">
